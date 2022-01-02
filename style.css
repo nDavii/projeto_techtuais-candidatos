@@ -4,6 +4,23 @@ header {
 	background: center url("bckgrnd1stpage.png");
 }
 
+.logo-header {
+	width: 200px;
+	display: inline;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 10px;
+	padding: 10px;
+}
+
 main {
 	background: center url("bckgrnd_blurgaussian.png");
 }
@@ -18,3 +35,8 @@ h3 {
 	font-size: 1.5em;
 	margin: 100px;
 }
+
+.foto-candidatos {
+	width: 150px;
+}
+
