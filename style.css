@@ -1,42 +1,53 @@
-header {
-	height: 70vh;
-	width: 100%;
-	background: center url("bckgrnd1stpage.png");
-}
+body {
+	background-color: #f4f4f4;
+  }
+   
+  .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+  }
 
-.logo-header {
-	width: 200px;
-	display: inline;
-}
-
-nav {
-	position: absolute;
-	right: 0;
-	top: 0px;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 10px;
-	padding: 10px;
-}
-
-main {
-	background: center url("bckgrnd_blurgaussian.png");
-}
-
-.pessoascombolinha {
-	width: 500px;
-	float: right;
-}
-
-h3 {
+  .card {
+	border-radius: 20px;
+	box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+	padding: 30px;
+	margin: 40px;
+	width: 320px;
+	height: 550px;
 	text-align: center;
-	font-size: 1.5em;
-	margin: 100px;
-}
+	border-left: 7px solid #7FFFD4;
+  }
 
-.foto-candidatos {
-	width: 150px;
-}
+  .description {
+	  text-align: justify;
 
+  }
+
+  .button {
+	padding: 0;
+	border: none;
+	background: none;
+	margin: 10px;
+  }
+   
+   
+  .image {
+	float: right;
+	max-width: 64px;
+	max-height: 64px;
+  }
+
+  .photo {
+	  border-radius: 50%;
+	  border: 3px solid #b4b4b4;
+	  width: 250px;
+	  height: 250px;
+
+  }
+
+  .logo {
+	  width: 40px;
+	  height: 40px;
+  }
